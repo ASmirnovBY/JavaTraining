@@ -1,0 +1,6 @@
+1,Alex,Smirnov,Borisovich,Kazinca.h5.r406,3302446,1,Orv
+2,Kirill,Smirnov,Borisovich,Lenina.h6.r301,7777777,2,Orv
+3,Misha,Mihailov,Ivanovich,Kalinina.h2.r3,3302485,3,Flu
+4,Aleksei,Simonov,Ivanovich,Kalinina.h6.r7,3102476,4,Angina
+5,Masha,Krilova,Olegovna,Rabkorovskaya.h45.r56,1002447,5,Miningit
+6,Liza,Dovidova,Sergeevna,Marksa.h89.r41,5112993,6,Podagra
