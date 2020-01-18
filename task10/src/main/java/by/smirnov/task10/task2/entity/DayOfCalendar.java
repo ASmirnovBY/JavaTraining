@@ -1,11 +1,17 @@
 package by.smirnov.task10.task2.entity;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public final class DayOfCalendar implements Comparable<DayOfCalendar> {
+public final class DayOfCalendar implements Comparable<DayOfCalendar>, Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private LocalDate date;
     private String description;
+
+    public DayOfCalendar() {}
 
     public DayOfCalendar(LocalDate date, String description) {
         this.date = date;

@@ -1,12 +1,15 @@
 package by.smirnov.task10.task2.entity;
 
+import java.io.Serializable;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Calendar {
+public class Calendar implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private static final int START_MONTH_DAY_IN_YEAR = 1;
 
     private static final String WORK_DAY = "Work day";
