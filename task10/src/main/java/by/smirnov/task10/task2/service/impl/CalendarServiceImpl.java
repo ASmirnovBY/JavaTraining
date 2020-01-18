@@ -15,6 +15,11 @@ public class CalendarServiceImpl implements CalendarService {
 
     @Override
     public Calendar addHolidayInCalendar(int year, String country) throws ServiceException {
+        if (year < 2019
+                || year > 2056) {
+            throw new ServiceException(ResponseMessage.INCORRECT_INPUT_YEAR.getMessage());
+        }
+
         Calendar calendar = new Calendar(year);
         DAOFactory factory = DAOFactory.getInstance();
         HolidaysDAO holidaysDAO = factory.getHolidaysDAO();
@@ -36,6 +41,7 @@ public class CalendarServiceImpl implements CalendarService {
                 || year > 2056) {
             throw new ServiceException(ResponseMessage.INCORRECT_INPUT_YEAR.getMessage());
         }
+
         Calendar calendar = new Calendar(year);
         calendar.buildWorkDay();
         return calendar;
