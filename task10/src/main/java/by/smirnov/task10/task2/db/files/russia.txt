@@ -1,0 +1,15 @@
+1,1,New Year Holiday
+1,2,New Year Holiday
+1,3,New Year Holiday
+1,4,New Year Holiday
+1,5,New Year Holiday
+1,6,New Year Holiday
+1,7,New Year Holiday
+1,8,New Year Holiday
+1,7,Orthodox Christmas
+2,23,Solder's day
+3,8,Woman's day
+5,1,Work's day
+5,9,Victory day
+12,6,Independet day
+11,7,Revolution day
